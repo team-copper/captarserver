@@ -1,0 +1,23 @@
+{
+  "name": "captarserver",
+  "version": "1.0.0",
+  "description": "Socket Server for captAR React Native client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-copper/captarserver.git"
+  },
+  "keywords": [
+    "AR",
+    "geolocation"
+  ],
+  "author": "team-copper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/team-copper/captarserver/issues"
+  },
+  "homepage": "https://github.com/team-copper/captarserver#readme"
+}
