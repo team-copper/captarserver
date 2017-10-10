@@ -63,7 +63,8 @@ app.get('/auth/google/callback',
   (req, res) => res.redirect('OAuthLogin://login?user=' + JSON.stringify(req.user)));
 
 // Launch the server on the port 8080
-const server = app.listen(8080, () => {
+let portNbr = process.env.PORT || 8080
+const server = app.listen(portNbr, () => {
   const { address, port } = server.address();
   console.log(`Listening at http://${address}:${port}`);
 });
